@@ -5,24 +5,29 @@
 
 /* About me */
 
-header h1 {
+header h3 {
     padding: 15px;
     margin: 0;
     font-size: 28px;
     background-color: grey;
     color: grey;
     display: inline-block;
+    margin-bottom: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
 }
 
 header {
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
-    color: gray;
+    color: lightslategray;
+    margin-bottom: 30px;
 }
 
 #inner-header {
     width: 960px;
     margin: auto;
+    background-color: lightslategrey;
 }
 
 body {
@@ -32,6 +37,8 @@ body {
 
 #top-nav-bars {
     display: inline-block;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
 }
 
 #summary {
@@ -40,8 +47,14 @@ body {
     margin: auto;
     margin-top: 30px;
     border: 2px solid #cccccc;
-    padding-bottom: 200px;
     padding-left: 20px;
+}
+
+p {
+    border-top: 2px solid #4aaaa5;
+    padding-top: 20px;
+    line-height: 30px;
+    margin-right: 40px;
 }
 
 #contact {
@@ -61,7 +74,7 @@ body {
     margin-top: 30px;
     border: 2px solid #cccccc;
     padding-left: 20px;
-    margin-bottom: 80px;
+    height: 430px;
 }
 
 .bottom-footer {
@@ -73,4 +86,10 @@ body {
     width: 100%;
     bottom: 0;
     text-align: center;
+    padding: 15px;
+}
+
+div img {
+    border: 2px solid #4aaaa5;
+    margin: 10px;
 }
